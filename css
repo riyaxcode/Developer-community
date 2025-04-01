@@ -1,0 +1,12 @@
+.animated-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00e0ff;
+    text-shadow: 0 0 10px #00e0ff, 0 0 20px #00e0ff;
+    animation: neon-glow 1.5s infinite alternate;
+}
+
+@keyframes neon-glow {
+    0% { text-shadow: 0 0 10px #00e0ff, 0 0 20px #00e0ff; }
+    100% { text-shadow: 0 0 15px #ff0099, 0 0 30px #ff0099; }
+}
